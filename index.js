@@ -6,8 +6,9 @@ btn.addEventListener("click", function () {
 
     let billAmount = document.getElementById("bill_amount").value;
     let tipPercent = document.getElementById("tip_P").value;
+    let eachPeople = document.getElementById("people").value;
     let tipAmount = document.getElementById("tip_amount").value = (billAmount/100) * tipPercent;
-    document.getElementById('total-Bill').value = parseFloat(billAmount) + parseFloat(tipAmount);
+    document.getElementById('total-Bill').value = (parseFloat(billAmount)+parseInt(tipAmount)) / parseInt(eachPeople);
     
 })
 // Reset Buttion
