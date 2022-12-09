@@ -56,18 +56,25 @@ button:hover{
 
 }
 footer{
-    padding-left: 1000px;
-    padding-top: 100px;
+    text-align: left;
+    padding-right: 50px;
+     /* padding-left: 1000px; */
+    padding-top: 30px; 
     color: wheat;
     text-transform: capitalize;
-    /* font-family: 'Cabin', sans-serif;
-    font-family: 'Fjalla One', sans-serif; */
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: black;
 }
 @media screen and(min-width : 400px) {
-    body,.container,footer{
+    body,.container{
         align-items: center;
         justify-content: center;
+       
+    }
+    footer{
+        text-align: left;
+
     }
     
 }
@@ -77,6 +84,7 @@ footer{
     body , footer{
         align-items: center;
         justify-content: center;
+        
     }
 
     
