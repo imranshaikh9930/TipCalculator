@@ -64,3 +64,20 @@ footer{
     font-family: 'Fjalla One', sans-serif; */
     color: black;
 }
+@media screen and(min-width : 400px) {
+    body,.container,footer{
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+
+@media screen and(max-width : 1500px) {
+    body , footer{
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+}
